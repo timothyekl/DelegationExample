@@ -12,6 +12,8 @@
 
 @class ColorView;
 
+// Main view controller for the app; tracks a ColorView and the button to
+// show the color picker
 @interface RootViewController : UIViewController <ColorPickerDelegate> {
 @private
     ColorView * _colorView;

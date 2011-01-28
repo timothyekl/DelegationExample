@@ -13,23 +13,25 @@
 
 @synthesize delegate = _delegate;
 
+// Required for our single supported orientation
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-#pragma mark - Table view data source
-
+// Only one section of items (for colors)
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
     return 1;
 }
 
+// Three colors allowed to be chosen
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
     return 3;
 }
 
+// Place the names of each color in the appropriate cell
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *CellIdentifier = @"Cell";
     
@@ -50,8 +52,7 @@
     return cell;
 }
 
-#pragma mark - Table view delegate
-
+// Send delegate notifications when a color is picked, then dismiss
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {   
     NSInteger row = [indexPath row];
     switch(row) {

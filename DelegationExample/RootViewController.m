@@ -22,7 +22,8 @@
     [self.navigationController pushViewController:pickerVC animated:YES];
 }
 
-// Delegate method
+// Delegate method - update color in this controller's ColorView, then
+// require that view to redraw itself
 - (void)pickedColor:(UIColor *)color {
     self.colorView.color = color;
     [self.colorView setNeedsDisplay];

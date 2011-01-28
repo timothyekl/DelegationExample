@@ -8,11 +8,11 @@
 
 #import "ColorView.h"
 
-
 @implementation ColorView
 
 @synthesize color = _color;
 
+// Default to a black color
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -22,8 +22,7 @@
     return self;
 }
 
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
+// Fill in the entire view with a black color
 - (void)drawRect:(CGRect)rect
 {
     // Drawing code
@@ -39,10 +38,5 @@
     CGContextFillPath(context);
 }
 
-
-- (void)dealloc
-{
-    [super dealloc];
-}
 
 @end

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-
+// Custom class to draw a single block of color
 @interface ColorView : UIView {
 @private
     UIColor * _color;
