@@ -16,6 +16,9 @@
 		22A585C412F26ECC0055CC73 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A585C212F26ECC0055CC73 /* MainWindow.xib */; };
 		22A585C712F26ECC0055CC73 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A585C612F26ECC0055CC73 /* RootViewController.m */; };
 		22A585CA12F26ECC0055CC73 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A585C812F26ECC0055CC73 /* RootViewController.xib */; };
+		22A585D212F26F940055CC73 /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A585D112F26F940055CC73 /* ColorView.m */; };
+		22A585D612F2725E0055CC73 /* ColorPickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A585D412F2725E0055CC73 /* ColorPickerTableViewController.m */; };
+		22A585D712F2725E0055CC73 /* ColorPickerTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A585D512F2725E0055CC73 /* ColorPickerTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +26,22 @@
 		22A585B012F26ECC0055CC73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22A585B212F26ECC0055CC73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22A585B412F26ECC0055CC73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		22A585B812F26ECC0055CC73 /* DelegationExample-Info.plist */ = {isa = PBXFileReference; path = "DelegationExample-Info.plist"; sourceTree = "<group>"; };
+		22A585B812F26ECC0055CC73 /* DelegationExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DelegationExample-Info.plist"; sourceTree = "<group>"; };
 		22A585BA12F26ECC0055CC73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		22A585BC12F26ECC0055CC73 /* DelegationExample-Prefix.pch */ = {isa = PBXFileReference; path = "DelegationExample-Prefix.pch"; sourceTree = "<group>"; };
+		22A585BC12F26ECC0055CC73 /* DelegationExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DelegationExample-Prefix.pch"; sourceTree = "<group>"; };
 		22A585BD12F26ECC0055CC73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		22A585BF12F26ECC0055CC73 /* DelegationExampleAppDelegate.h */ = {isa = PBXFileReference; path = DelegationExampleAppDelegate.h; sourceTree = "<group>"; };
+		22A585BF12F26ECC0055CC73 /* DelegationExampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DelegationExampleAppDelegate.h; sourceTree = "<group>"; };
 		22A585C012F26ECC0055CC73 /* DelegationExampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegationExampleAppDelegate.m; sourceTree = "<group>"; };
 		22A585C312F26ECC0055CC73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		22A585C512F26ECC0055CC73 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		22A585C512F26ECC0055CC73 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		22A585C612F26ECC0055CC73 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		22A585C912F26ECC0055CC73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		22A585D012F26F940055CC73 /* ColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
+		22A585D112F26F940055CC73 /* ColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
+		22A585D312F2725E0055CC73 /* ColorPickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerTableViewController.h; sourceTree = "<group>"; };
+		22A585D412F2725E0055CC73 /* ColorPickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerTableViewController.m; sourceTree = "<group>"; };
+		22A585D512F2725E0055CC73 /* ColorPickerTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorPickerTableViewController.xib; sourceTree = "<group>"; };
+		22A585D812F272790055CC73 /* ColorPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,12 @@
 				22A585C612F26ECC0055CC73 /* RootViewController.m */,
 				22A585C812F26ECC0055CC73 /* RootViewController.xib */,
 				22A585B712F26ECC0055CC73 /* Supporting Files */,
+				22A585D012F26F940055CC73 /* ColorView.h */,
+				22A585D112F26F940055CC73 /* ColorView.m */,
+				22A585D312F2725E0055CC73 /* ColorPickerTableViewController.h */,
+				22A585D412F2725E0055CC73 /* ColorPickerTableViewController.m */,
+				22A585D512F2725E0055CC73 /* ColorPickerTableViewController.xib */,
+				22A585D812F272790055CC73 /* ColorPickerDelegate.h */,
 			);
 			path = DelegationExample;
 			sourceTree = "<group>";
@@ -151,6 +166,7 @@
 				22A585BB12F26ECC0055CC73 /* InfoPlist.strings in Resources */,
 				22A585C412F26ECC0055CC73 /* MainWindow.xib in Resources */,
 				22A585CA12F26ECC0055CC73 /* RootViewController.xib in Resources */,
+				22A585D712F2725E0055CC73 /* ColorPickerTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +180,8 @@
 				22A585BE12F26ECC0055CC73 /* main.m in Sources */,
 				22A585C112F26ECC0055CC73 /* DelegationExampleAppDelegate.m in Sources */,
 				22A585C712F26ECC0055CC73 /* RootViewController.m in Sources */,
+				22A585D212F26F940055CC73 /* ColorView.m in Sources */,
+				22A585D612F2725E0055CC73 /* ColorPickerTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +253,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DelegationExample/DelegationExample-Prefix.pch";
 				INFOPLIST_FILE = "DelegationExample/DelegationExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -248,6 +267,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DelegationExample/DelegationExample-Prefix.pch";
 				INFOPLIST_FILE = "DelegationExample/DelegationExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

@@ -8,10 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITableViewController {
-@private
+#import "ColorPickerDelegate.h"
 
+@class ColorView;
+
+@interface RootViewController : UIViewController <ColorPickerDelegate> {
+@private
+    ColorView * _colorView;
+    UIButton * _changeColorButton;
 }
 
+@property (nonatomic, retain) IBOutlet ColorView * colorView;
+@property (nonatomic, retain) IBOutlet UIButton * changeColorButton;
+
+- (IBAction)receivedChangeColorButtonPress;
 
 @end
